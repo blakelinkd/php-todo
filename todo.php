@@ -24,11 +24,6 @@ if($_GET['remove'] != NULL) {
     }
 }
 
-
-if($_GET['todo_list']) {
-    $todo_list_object = json_encode($todo_list, JSON_FORCE_OBJECT);
-    $b64object = base64_encode($todo_list_object);
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
